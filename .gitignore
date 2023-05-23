@@ -42,3 +42,44 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart specific
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+.vscode/
+.idea/
+*.iml
+
+# Android specific
+**/android/.gradle/
+**/android/captures/
+**/android/gradle-wrapper.jar
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# iOS specific
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/.generated/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/flutter_project.pbxproj
+**/ios/Flutter/flutter_project.xcworkspace/
+**/ios/Flutter/ios/Flutter.podspec
+**/ios/Flutter/ios/FlutterPluginRegistrant/
+**/ios/Flutter/ios/GeneratedPluginRegistrant.*
+
+# Miscellaneous
+**/.metadata
+**/.*.swp
+**/.*.swo
